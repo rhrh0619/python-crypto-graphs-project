@@ -1,2 +1,3 @@
 # python-crypto-graphs-project
-This python code plots cryptocurrency graphs in real time by getting data from the internet.
+This python code plots crypocurrency graphs in real time by getting data from the internet. Additionally, it also compares two crypto currency graphs in realtime by plotting them on the same plain.
+
