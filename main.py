@@ -90,5 +90,16 @@ def cacc():
     seck.place(x=200,y=200,height=25)
     seck.configure(bd=2)
 
+        else:
+            notm=tk.Label(root,text='The Password did not match, Please try again.')
+            notm.place(x=0,y=250,width=400,height=15)
+            notm.configure(bg='#dbcdab',fg='#1B263B')
+            
+                
+    but=tk.Button(root,text='CREATE ACCOUNT',bg='#dbcdab',fg='#1B263B',command=get)
+    but.configure(bd=0,font=('fixedsys',20))
+    but.place(x=0,y=265,width=400,height=35)
+    root.resizable(0,0)
+    #but1.place(x=1330,y=25,height=20)
 
                 
