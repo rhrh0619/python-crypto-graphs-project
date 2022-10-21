@@ -37,3 +37,13 @@ Def login():
         olduser=usname.get()
         oldpwd=pswd.get()
         With open('info.txt',"r") as userchk:
+            For line in userchk:
+                If older in line:
+                    pwdchk=linecache.getline(olduser+'.txt',2)
+                    If (oldpwd+'\n')==(pwdchk) :
+                        root.destroy()
+                        win.destroy()
+                        Import can
+                    Else:
+                        notm=tk.Label(root,text='The Password did not match, Please try again.')
+                        notm.place(x=0,y=155,width=300,height=15)
