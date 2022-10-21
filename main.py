@@ -1,3 +1,4 @@
+try('300x200')
 Import tinter as tk
 Import linecache
 Import smtplib,ssl
