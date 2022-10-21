@@ -56,4 +56,12 @@ Def login():
                     but2=tk.Button(root,text='CREATE AN ACCOUNT',bg='#dbcdab',fg='#1B263B',command=cacc)
                     but2.configure(bd=0,font=('fixed sys',20))
                     but2.place(x=0,y=165,width=300,height=35)
+    but=tk.Button(root,text='LOGIN',bg='#dbcdab',fg='#1B263B',command=log)
+    but.configure(bd=0,font=('fixedsys',20))
+    but.place(x=0,y=165,width=300,height=35)
+    root.resizable(0,0)
+    #but1.place(x=1330,y=25,height=20)
+
+cacbg=tk.PhotoImage(file='cacbg.png')
+
                 
