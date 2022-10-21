@@ -47,3 +47,13 @@ Def login():
                     Else:
                         notm=tk.Label(root,text='The Password did not match, Please try again.')
                         notm.place(x=0,y=155,width=300,height=15)
+                        notm.configure(bg='#dbcdab',fg='#1B263B')
+                
+                Else:
+                    notm=tk.Label(root,text='The account doesnot exist.')
+                    notm.place(x=0,y=150,width=300,height=15)
+                    notm.configure(bg='#dbcdab',fg='#1B263B')
+                    but2=tk.Button(root,text='CREATE AN ACCOUNT',bg='#dbcdab',fg='#1B263B',command=cacc)
+                    but2.configure(bd=0,font=('fixed sys',20))
+                    but2.place(x=0,y=165,width=300,height=35)
+                
