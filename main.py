@@ -64,4 +64,31 @@ Def login():
 
 cacbg=tk.PhotoImage(file='cacbg.png')
 
+
+def cacc():
+    root=tk.Toplevel()
+    root.geometry('400x300')
+    root.title('Create an account')
+
+    log=tk.Label(root,image=cacbg,bd=0)
+    log.place(x=0,y=0)
+    
+    usnamen=tk.Entry(root)
+    usnamen.place(x=200,y=110,height=25)
+    usnamen.configure(bd=2)
+    
+    
+    pswdn=tk.Entry(root,show='*')
+    pswdn.place(x=200,y=140,height=25)
+    pswdn.configure(bd=2)
+
+    pswdcn=tk.Entry(root,show='*')
+    pswdcn.place(x=200,y=170,height=25)
+    pswdcn.configure(bd=2)
+
+    seck=tk.Entry(root)
+    seck.place(x=200,y=200,height=25)
+    seck.configure(bd=2)
+
+
                 
