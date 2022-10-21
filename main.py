@@ -103,3 +103,26 @@ def cacc():
     #but1.place(x=1330,y=25,height=20)
 
                 
+def c():
+    win.destroy()
+    import cannot    
+     
+
+    
+    
+
+but1=tk.Button(win,text='LOGIN ',bg='#dbcdab',fg='#1B263B',command=login)
+but1.configure(bd=0,font=('fixedsys',20))
+but1.place(x=0,y=300,width=450,height=35)
+
+but2=tk.Button(win,text='CREATE AN ACCOUNT',bg='#dbcdab',fg='#1B263B',command=cacc)
+but2.configure(bd=0,font=('fixedsys',20))
+but2.place(x=0,y=360,width=450,height=35)
+
+but3=tk.Button(win,text='ENTER AS GUEST',bg='#dbcdab',fg='#1B263B',command=c)
+but3.configure(bd=0,font=('fixedsys',20))
+but3.place(x=0,y=420,width=450,height=35)
+
+
+
+win.mainloop()
