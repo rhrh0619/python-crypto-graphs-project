@@ -2,10 +2,5 @@
 This python code plots crypocurrency graphs in real time by getting data from the internet. Additionally, it also compares two crypto currency graphs in realtime by plotting them on the same plain.
 It also has a chat environment working between server and client.
 
-<<<<<<< HEAD
 Contributors:
--Harsh Raghavani
-=======
-#Contributors:
->>>>>>> main
 -Harsh Raghavani
